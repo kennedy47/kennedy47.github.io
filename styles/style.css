@@ -1,0 +1,563 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+
+
+
+/*Abaixo início Css Para Desktop 1440px*/
+
+
+
+
+
+/*Abaixo Navbar*/
+
+
+
+
+
+.main-container{
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 100vh;
+}
+
+.navbar{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 80px;
+
+    margin: 18px 80px;
+}
+
+#navbar-container{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    
+    color: #667085;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 60px;
+}
+
+#logo{
+    display: flex;
+}
+
+#logo-image{
+    height: 27px;
+    width: 27px;
+
+    margin-left: 32px;
+    margin-right: 20px;
+}
+
+#logo-OptimusTech{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    font: #3A404E;
+
+    margin-right: 140px;
+}
+
+
+.nav-buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.login-button{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+    color: #667085;
+    background-color: #ffffff;
+    cursor: pointer;
+
+    border: none;
+    margin-left: 350px;
+    margin-right: 20px;
+}
+
+.register-button{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+    background-color: #8E2424;
+    color: #ffffff;
+    cursor: pointer;
+
+    border: 1px solid #8E2424;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+
+
+
+/*Abaixo Header*/
+
+
+
+
+
+.header{
+    height: 407px;
+    width: 100%;
+
+    justify-content: center;
+}
+
+#header-container{
+    text-align: center;
+
+    height: 407px;
+    width: 100%;
+
+    padding-top: 50px;
+}
+
+#span-about{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 45px;
+
+    color: #8E2424;
+}
+
+#difference{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 160px;
+
+    color: #101828;
+}
+
+#p-details{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+
+    color: #667085;
+}
+
+
+
+
+
+/*Abaixo Métricas*/
+
+
+
+
+
+.metrics{
+    display: flex;
+    justify-content: center;
+
+    height: 288px;
+    width: 100%;
+}
+
+#metrics-container{
+    display: flex;
+    padding-left: 60px;
+
+    height: 192px;
+    width: 1216px;
+}
+
+.metric-item{
+    height: 168px;
+    width: 280px;
+}
+
+#span-metric-itens{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+
+    color: #8E2424;
+}
+
+#h3-text{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+
+    color: #101828;
+}
+
+#p-metric-itens{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+    color:#667085;
+}
+
+
+
+
+/*Abaixo Metrics*/
+
+
+
+
+
+.jobs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+
+    height: 1798px;
+    width: 100%;
+}
+
+#talents{
+    height: 602px;
+    width: 1280px;
+
+    text-align: center;
+    justify-content: center;
+    padding-top: 64px;
+}
+
+#talents-container{
+    height: 132px;
+    width: 1280px;
+
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+#image-talents{
+    height: 400px;
+    width: 1216px;
+
+    margin-top: 64px;
+}
+
+#span-talents{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+    color: #8E2424;
+}
+
+#h2-talents{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+
+    color: #101828;
+
+    margin: 20px 0px;
+}
+
+#p-talents{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+
+    color: #667085;
+}
+
+
+
+
+
+/*Abaixo New Jobs*/
+
+
+
+
+
+.new-jobs{
+    background-color: #ffffff;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 64px;
+
+    height: 1100px;
+    width: 100%;
+}
+
+#job-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 440px;
+    width: 1280px;
+    
+}
+
+
+#job-list-title{
+    width: 768px;
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+
+    color: #101828;
+    text-align: justify;
+}
+
+#jobs{
+    height: 136px;
+    width: 768px;
+    line-height: 28px;
+
+    padding: 24px;
+}
+
+#job-h3-text{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+
+    color: #101828;
+
+    margin-bottom: 32px;
+}
+
+#about-job{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+    color: #667085;
+}
+
+
+
+
+
+/*Abaixo Depoiments*/
+
+
+
+
+
+.depoiments{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    height: 500px;  
+
+    padding: 0px 112px 112px 96px;
+}
+
+#depoiment-container{
+    width: 1216px;
+    height: 404px;
+
+    text-align: center;
+    padding: 64px;
+}
+
+#first-depoiment-container{
+    width: 1088px;
+    height: 124px;
+}
+
+#span-depoiments{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+
+    margin-bottom: 16px;
+
+    color: #8E2424;
+}
+
+#h2-depoiments{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+
+    margin-bottom: 32px;
+    
+    color: #101828;
+}
+
+#second-container{
+    display: flex;
+    flex-direction: column;
+
+    width: 1088px;
+    height: 124px;
+
+    text-align: center;
+}
+
+#collaborator-avatar{
+    height: 56px;
+    width: 56px;
+
+    margin: 0 auto;
+
+    margin-bottom: 16px;
+}
+
+
+#span-collaborator{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+    margin-bottom: 4px;
+
+    color: #101828;
+}
+
+#p-colaborattor{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+    color: #667085;
+}
+
+
+
+
+
+/*Abaixo Footer*/
+
+
+
+
+
+.footer{
+    width: 1440px;
+    height: 430px;
+
+    padding: 96px 304px 152px 304px;
+}
+
+#footer-container{
+    width: 832px;
+    height: 182px;
+
+    text-align: center;
+}   
+
+#footer-content{
+    width: 832px;
+    height: 182px;
+}
+
+#opportunities{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+
+    padding-bottom: 20px;
+
+    color: #101828;
+}
+
+#p-opportunities{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+
+    padding-bottom: 40px;
+
+    color: #667085;
+}
+
+.email-capture{
+    margin-bottom: 32px;
+    height: 60px;
+}
+
+#input-capture{
+    width: 360px;
+    height: 48px;
+
+    margin: 0px 16px 2px 0px;
+}
+
+#capture-button{
+    width: 116px;
+    height: 50px;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+    background-color: #8E2424;
+    color: #ffffff;
+    cursor: pointer;
+
+    border: 1px solid #8E2424;
+    padding: 12px 20px;
+    border-radius: 8px;
+
+}
+
+#copyright{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;    
+    color: #98A2B3;
+}
+
+#input-capture{
+    border: 1px solid #667085;
+}
+
+#input-capture::placeholder{
+    width: 330px;
+    height: 24px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #667085;
+
+    padding-left: 10px;
+}
+
+.email-capture{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+
+
+
+/*Fim Css Para Desktop 1440px*/
